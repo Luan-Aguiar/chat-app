@@ -48,7 +48,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>br.com.meslin.ChatConsumer</mainClass>
+                            <mainClass>org.exercicio1.ChatConsumer</mainClass>
                             <!--  Substitua com o nome da sua classe principal  -->
                         </manifest>
                     </archive>
