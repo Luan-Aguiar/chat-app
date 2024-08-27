@@ -15,7 +15,7 @@ import org.exercicio1.WebSocketServer;
 
 public class ChatConsumer {
     private static final String TOPIC = "chat-messages";
-    private static final String BOOTSTRAP_SERVERS = "kafka:9092";
+    private static final String BOOTSTRAP_SERVERS = "kafka1:9092,kafka2:9092,kafka3:9092";
     private static final String GROUP_ID = "chat-consumer-group";
 
     private static final Logger logger = LoggerFactory.getLogger(ChatConsumer.class);
